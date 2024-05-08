@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Information</title>
+    <style>
+      body {
+        font-family: Georgia, serif;
+        font-size: 16px;
+        background-image: url("background.webp"); 
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+
+      h1 {
+        font-family: Monotype Corsiva, cursive;
+        font-size: 5rem;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #f3ead3;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .navbar {
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin-right: 20px;
+        margin-bottom: 150px;
+        box-sizing: border-box;
+      }
+      .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .navbar li {
+        margin-bottom: 10px;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+      }
+      .navbar a:hover {
+        color: #ddd;
+      }
+
+      .content {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: transparent;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+      }
+
+      .academic-info {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+
+      .academic-info img {
+        max-width: 200px;
+        height: auto;
+        margin-right: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .details {
+        flex: 1;
+      }
+
+      .details h2 {
+        font-size: 24px;
+        font-family: Monotype Corsiva, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff1e6;
+        margin-bottom: 10px;
+      }
+
+      .details p {
+        font-size: 18px;
+        color: white;
+        margin-bottom: 5px;
+      }
+
+      .nav-back {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .back-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .back-link:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Personal Home Page</h1>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="academic_information2.html">Academic Information</a></li>
+          <li><a href="personal_information2.html">Personal Information</a></li>
+          <li><a href="family_information2.html">Family Information</a></li>
+          <li><a href="about_me2.html">About Me</a></li>
+          <li><a href="resume2.html">Resume</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="academic-info">
+          <img src="PUP.jpg" alt="School Picture" />
+          <div class="details">
+            <h2>My school</h2>
+            <p>Polytechnic University of the Philippines</p>
+            <h2>School Address and Contact Number</h2>
+            <p>
+              Anonas Street, Sta. Mesa, Manila Philippines 1016, (+632)
+              5335-1787 or 5335-1777 local 176
+            </p>
+          </div>
+        </div>
+
+        <div class="academic-info">
+          <div class="details">
+            <h2>My Picture</h2>
+            <img src="PaulPicture.JPG" alt="Your Picture" />
+            <h2>Student Information</h2>
+            <p>
+              <strong>Student Number:</strong> 2021-05870-MN-0<br />
+              <strong>Course:</strong> Bachelor of Science in Computer
+              Engineering<br />
+              <strong>Student Name:</strong> Paul John C. Bullangay<br />
+              <strong>Year:</strong> 3rd Year<br />
+            </p>
+          </div>
+        </div>
+
+        <div class="nav-back">
+          <a href="task3.html" class="back-link"
+            >Go back to Personal Home Page</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

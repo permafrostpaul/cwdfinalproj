@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Information</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  header {
+    background: linear-gradient(to right, #7385a7, #567999);
+    color: #f7f7f7;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .content {
+    background-color: #3271a5; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 800px; 
+    width: 100%;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .box {
+    background-color: #f3ead3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+  }
+
+  .box:hover {
+    background-color: #D3D0C9;
+  }
+
+  .box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .box p {
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    background: linear-gradient(to right, #7385a7, #567999);
+    color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+  }
+
+
+  .box img {
+    max-width: 200px; 
+    border-radius: 5px;
+  }
+
+  
+  .back-button {
+    background-color: #7385a7; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+  }
+
+  .back-button:hover {
+    background-color: #567999; 
+  }
+
+  @media (max-width: 600px) {
+    .box {
+      flex: 0 0 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Family Information</h1>
+</header>
+
+<div class="container">
+  <div class="content">
+    <div class="box">
+      <h2>Father's Name:</h2>
+      <p>Richard B. Montalban</p>
+      <p>Occupation: Company Driver at Veolia</p>
+      <img src="Father.jpg" alt="Father" style="max-width: 100%;">
+    </div>
+    <div class="box">
+      <h2>Mother's Name:</h2>
+      <p>Didith B. Montalban</p>
+      <img src="Mother.jpg" alt="Mother" style="max-width: 100%;">
+    </div>
+    <div class="box">
+      <h2>Brother's Name:</h2>
+      <p>James Hendrick B. Montalban</p>
+      <img src="Brother.jpg" alt="Brother" style="max-width: 100%;">
+    </div>
+    <div class="box">
+      <h2>Sister's Name:</h2>
+      <p>Izza B. Montalban</p>
+      
+    </div>
+    <a href="task4.html" class="back-button">Go back to Personal Home Page</a>
+  </div>
+
+</div>
+<footer>
+  <p>Paul John C. Bullangay || mr.pauljohn12@gmail.com || 2024</p>
+</footer>
+
+</body>
+</html>

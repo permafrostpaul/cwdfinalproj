@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+
+  header,
+  footer {
+    background-color: #68d2e8;
+    padding: 20px 0;
+    text-align: center;
+    color: #fdde55;
+    border-bottom: 3px solid #03aed2;
+  }
+
+  footer {
+    margin-top: auto; 
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-grow: 1; 
+  }
+
+  .left-nav {
+    width: 20%;
+    background-color: #feefad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-nav a {
+    display: block;
+    color: #68d2e8;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .left-nav a:hover {
+    background-color: #265b8c;
+  }
+
+  .academic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .academic-info .content {
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .academic-info .box {
+    margin-bottom: 20px;
+  }
+
+  .academic-info img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .about-me-container {
+    width: 23%;
+    background-color: #feefad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1,
+  h2 {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #68D2E8;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Personal Information</h1>
+</header>
+
+<div class="container">
+  <div class="left-nav">
+    <a href="task5.html">Home</a>
+    <a href="academic_information4.html">Academic Information</a>
+    <a href="personal_information4.html">Personal Information</a>
+    <a href="family_information4.html">Family Information</a>
+    <a href="resume4.html">Resume</a>
+  </div>
+
+  <div class="academic-info">
+    <div class="content">
+      <div class="box">
+        <h2>School Name</h2>
+        <img src="PUP.jpg" alt="">
+        <p>Polytechnic University of the Philippines</p>
+      </div>
+
+      <div class="box">
+        <h2>Your Picture</h2>
+        <img src="PaulPicture.JPG" alt="">
+        <h2>Student Information</h2>
+        <p><strong>Student Number:</strong><br> 
+          <strong>Course:</strong> Bachelor of Science in Computer Engineering<br>
+          <strong>Student Name:</strong> Paul John C. Bullangay<br>
+          <strong>Year:</strong> 3rd Year</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-me-container">
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>Dedicated and passionate individual. Detail-oriented and enjoys challenges that allow for learning and growth. Working on finding a balance between striving for excellence and being satisfied with efforts.</p>
+      <img src="bass.jpg" alt="Playing Bass Guitar">
+      <img src="playing game.jpg" alt="Playing Games">
+      <p>Enjoys sleeping, watching anime and kdramas, and playing games in free time. Skilled in playing the bass guitar and adept at playing various video games.</p>
+      <p>Greatest strength is adaptability. Able to quickly adjust to new situations and environments, thriving in diverse settings and tackling challenges with confidence.</p>
+      <p>Enjoys staying active through activities such as basketball, cycling, and going to the gym, maintaining a healthy life balance.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Paul John C. Bullangay || CWD TASK 5 || 2024</p>
+</footer>
+
+</body>
+</html>

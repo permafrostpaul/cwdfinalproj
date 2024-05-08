@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Home Page</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.webp'); 
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: Monotype Corsiva, cursive;
+            font-size: 5rem;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f3ead3;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .navbar {
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            margin-bottom: 150px;
+            box-sizing: border-box;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            margin-bottom: 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #ddd;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personal Home Page</h1>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="academic_information2.html">Academic Information</a></li>
+                <li><a href="personal_information2.html">Personal Information</a></li>
+                <li><a href="family_information2.html">Family Information</a></li>
+                <li><a href="about_me2.html">About Me</a></li>
+                <li><a href="resume2.html">Resume</a></li>  
+            </ul>
+        </div>
+        <div class="content">
+
+            <a class="back-link" href="#">Back to Personal Home Page</a>
+        </div>
+    </div>
+</body>
+</html>

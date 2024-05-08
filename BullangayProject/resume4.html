@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+
+  header,
+  footer {
+    background-color: #68d2e8;
+    padding: 20px 0;
+    text-align: center;
+    color: #fdde55;
+    border-bottom: 3px solid #03aed2;
+    width: 100%; 
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-grow: 1; 
+  }
+
+  .left-nav {
+    width: 20%;
+    background-color: #feefad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-nav a {
+    display: block;
+    color: #68d2e8;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .left-nav a:hover {
+    background-color: #265b8c;
+    color: #fdde55;
+  }
+
+  .resume-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #68d2e8;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #68d2e8;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #68d2e8;
+  }
+
+  h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #68d2e8;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #68d2e8;
+    color: #fdde55;
+  }
+
+  td {
+    background-color: #f7f7f7;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .about-me-container {
+    width: 23%;
+    background-color: #feefad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #68d2e8;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-content {
+      width: 90%;
+    }
+
+    .left-nav {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Resume</h1>
+</header>
+
+<div class="container">
+  <div class="left-nav">
+    <a href="task5.html">Home</a>
+    <a href="academic_information4.html">Academic Information</a>
+    <a href="personal_information4.html">Personal Information</a>
+    <a href="family_information4.html">Family Information</a>
+    <a href="resume4.html">Resume</a>
+  </div>
+
+  <div class="resume-content">
+    <div class="section">
+      <h2>Contact Information</h2>
+      <p><b>Duhat Compound Annex 31 Severina 18</b></p>
+      <p><b>Marcelo Green Village Parañaque City</b></p>
+      <img src="Paul 1x1.jpg" alt="Profile Picture" class="profile-img" />
+      <p><b>mr.pauljohn12@gmail.com</b></p>
+      <p><b>09186557029</b></p>
+      <h5>Paul John, Bullangay Consulta</h5>
+    </div>
+    <div class="section">
+      <h3>Educational</h3>
+      <h4>Tertiary Level:</h4>
+      <p>
+        <i><b>Bachelor of Science in Computer Engineering</b></i>
+      </p>
+      <p>Polytechnic University of the Philippines</p>
+      <p>
+        NDC Campus, Anonas cor. Pureza Street, Sta. Mesa Manila, Philippines
+      </p>
+      <p>&nbsp;&nbsp;&nbsp;2021-2025</p>
+      <h4>Secondary Level:</h4>
+      <p>
+        <i><b>High School</b></i>
+      </p>
+      <p>Dr. Arcadio Santos National High School</p>
+      <p>
+        Km. East service Road, Brgy. San Martin de Porres, Paraňaque City
+      </p>
+      <p>&nbsp;&nbsp;&nbsp;2015-2019</p>
+      <h4>Primary Level:</h4>
+      <p>
+        <i><b>Elementary School</b></i>
+      </p>
+      <p>F. Serrano Sr. Elementary School</p>
+      <p>Annex 35 Don Bosco Paranaque City Metro Manila, Philippines</p>
+      <p>&nbsp;&nbsp;&nbsp;2009-2014</p>
+    </div>
+
+    <div class="section">
+      <h3>Employment</h3>
+      <p>
+        <i><b>Google</b></i>
+      </p>
+      <p>Mountain View, California</p>
+      <p>Software Engineer</p>
+      <p>2025-Present</p>
+    </div>
+
+    <div class="section">
+      <h3>Skill Qualification</h3>
+      <p>
+        <i><b>Web Development Fundamentals</b></i>
+      </p>
+      <p>Code Academy</p>
+      <p>January 2023 - April 2023</p>
+    </div>
+
+    <div class="section">
+      <h3>Seminar/Training Attended</h3>
+      <table>
+        <tr>
+          <th>Organization</th>
+          <th>Event</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>ABC Corporation</td>
+          <td>Introduction to Web Development</td>
+          <td>March 15, 2023</td>
+        </tr>
+        <tr>
+          <td>XYZ Industries</td>
+          <td>Data Analysis Workshop</td>
+          <td>November 20, 2024</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h3>Character Reference</h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Occupation</th>
+          <th>Company</th>
+          <th>Contact Number</th>
+        </tr>
+        <tr>
+          <td>Alliyah May Orgela</td>
+          <td>Mechatronics Technologist</td>
+          <td>Mercedes Benz</td>
+          <td>09310958341</td>
+        </tr>
+        <tr>
+          <td>Didith Montalban</td>
+          <td>Virtual Assistant</td>
+          <td>ABC Corporation</td>
+          <td>09072205484</td>
+        </tr>
+        <tr>
+          <td>Joshua Coronia</td>
+          <td>Electrical Engineer</td>
+          <td>Meralco</td>
+          <td>09178989519</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="about-me-container">
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>Dedicated and passionate individual. Detail-oriented and enjoys challenges that allow for learning and growth. Working on finding a balance between striving for excellence and being satisfied with efforts.</p>
+      <img src="bass.jpg" alt="Playing Bass Guitar">
+      <img src="playing game.jpg" alt="Playing Games">
+      <p>Enjoys sleeping, watching anime and kdramas, and playing games in free time. Skilled in playing the bass guitar and adept at playing various video games.</p>
+      <p>Greatest strength is adaptability. Able to quickly adjust to new situations and environments, thriving in diverse settings and tackling challenges with confidence.</p>
+      <p>Enjoys staying active through activities such as basketball, cycling, and going to the gym, maintaining a healthy life balance.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Paul John C. Bullangay || CWD TASK 5 || 2024</p>
+</footer>
+</body>
+</html>
